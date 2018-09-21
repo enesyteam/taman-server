@@ -3,7 +3,7 @@ import path from 'path';
 export default {
     app: {
         host: '0.0.0.0',
-        port: 8000,
+        port: 9000,
         jwtKey: 'G4igd1tDQvDWGucY3c7yI6RuM84ffjkdMrRZc44D2IA=',
         defaultCurrency: 'EUR'
     },
@@ -28,7 +28,7 @@ export default {
     uploads: {
         provider: 'atlas',
         folder: path.join(process.cwd(), 'uploads'),
-        baseUrl: 'localhost:8000/uploads'
+        baseUrl: 'localhost:9000/uploads'
     },
     emails: {
         from: {
