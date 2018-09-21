@@ -28,7 +28,7 @@ export default {
     uploads: {
         provider: 'atlas',
         folder: path.join(process.cwd(), 'uploads'),
-        baseUrl: 'http://api.phongthuytaitam.net/uploads'
+        baseUrl: 'api.phongthuytaitam.net/uploads'
     },
     emails: {
         from: {
