@@ -28,7 +28,7 @@ export default {
     uploads: {
         provider: 'atlas',
         folder: path.join(process.cwd(), 'uploads'),
-        baseUrl: 'localhost:9000/uploads'
+        baseUrl: 'http://api.phongthuytaitam.net/uploads'
     },
     emails: {
         from: {
@@ -37,8 +37,8 @@ export default {
         }
     },
     storefront: {
-        label: 'nicistore.com',
-        baseUrl: 'http://localhost:3000',
+        label: 'phongthuytaitam.net',
+        baseUrl: 'http://phongthuytaitam.net',
         defaultLocale: 'pt'
     },
     switchPayments: {
