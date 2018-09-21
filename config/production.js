@@ -12,7 +12,7 @@ config.logs.streams = [
 ];
 config.uploads.folder = '/uploads';
 config.uploads.baseUrl = 'nicistore.com/files';
-config.storefront.baseUrl = 'http://phongthuytaitam.net';
+config.storefront.baseUrl = 'https://phongthuytaitam.net';
 config.switchPayments.baseUrl = 'http://api.switchpayments.com/v2';
 
 // Export

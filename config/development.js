@@ -38,7 +38,7 @@ export default {
     },
     storefront: {
         label: 'phongthuytaitam.net',
-        baseUrl: 'http://phongthuytaitam.net',
+        baseUrl: 'https://phongthuytaitam.net',
         defaultLocale: 'pt'
     },
     switchPayments: {
